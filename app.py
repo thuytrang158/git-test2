@@ -12,6 +12,8 @@ def get_student(student_id):
             return student
     return None
 
+def search_student (student_id):
+
 if __name__ == "__main__":
     print(get_students())
 
